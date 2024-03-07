@@ -24,7 +24,7 @@ const Search = () => {
     // imperatively redirect with useNavigate() returned function
     navigate({
       pathname: '/search',
-      search: `?name=fido`
+      search: `?${query}`
     });
   };
 
